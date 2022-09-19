@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <h1>Регистрация</h1>
+  <ul>
+    <li>
+      <a href="../index.html">Главная</a>
+    </li>
+    <li>
+      <a href="catalog.html">Каталог</a>
+    </li>
+    <li>
+      <a href="articles.html">Статьи</a>
+    </li>
+    <li>
+      <a href="gallery.html">Галерея</a>
+    </li>
+    <li>
+      <a href="page-nav.html">Навигация</a>
+    </li>
+    <li>
+      <a href="contacts.html">Контакты</a>
+    </li>
+  </ul>
+
+  <form action="https://tests.fomenko.top/echo/index.php" method="get">
+    <fieldset>
+      <legend>Стандартная регистрация</legend>
+      <div>
+        <label for="lastname">Фамилия</label>
+        <input type="text" name="lastname" id="lastname" placeholder="Иванов">
+      </div>
+
+      <div>
+        <label for="name">Имя</label>
+        <input type="text" name="name" id="name" placeholder="Иван">
+      </div>
+
+      <div>
+        <label for="patronymic">Отчество</label>
+        <input type="text" name="patronymic" id="patronymic" placeholder="Иванович">
+      </div>
+
+      <div>
+        <label for="passw">Пароль</label>
+        <input type="password" name="passw" id="passw" placeholder="Придумайте пароль">
+      </div>
+
+      <div>
+        <label for="email">Почта</label>
+        <input type="email" name="email" id="email" placeholder="E-mail">
+      </div>
+
+      <div>
+        <label for="site">Адрес сайта</label>
+        <input type="url" name="url" id="site" value="https://mysite.name">
+      </div>
+
+      <div>
+        <label for="date">Дата рождения</label>
+        <input type="date" name="date" id="date">
+      </div>
+
+      <div>
+        <label for="file">Добавить фотографию</label>
+        <input type="file" name="file" id="file">
+      </div>
+
+    </fieldset>
+
+    <fieldset>
+      <legend>Пол</legend>
+      <p><strong>Выберите пол:</strong></p>
+
+      <div>
+        <input type="radio" name="gender" id="gender_male" value="gender_male">
+        <label for="gender_male">Мужской</label>
+      </div>
+
+      <div>
+        <input type="radio" name="gender" id="gender_female" value="gender_female">
+        <label for="gender_female">Женский</label>
+      </div>
+
+    </fieldset>
+
+    <fieldset>
+      <legend>Кухня</legend>
+      <p><strong>Выберите предпочитаемую кухню:</strong></p>
+      <div>
+        <input type="checkbox" name="kitchen1" id="ukrainian" value="ukrainian">
+        <label for="ukrainian">Украинская</label>
+      </div>
+
+      <div>
+        <input type="checkbox" name="kitchen2" id="american" value="american">
+        <label for="american">Американская</label>
+      </div>
+
+      <div>
+        <input type="checkbox" name="kitchen3" id="chinese" value="chinese">
+        <label for="chinese">Китайская</label>
+      </div>
+
+      <div>
+        <input type="checkbox" name="kitchen4" id="georgian" value="georgian">
+        <label for="georgian">Грузинская</label>
+      </div>
+
+      <div>
+        <input type="checkbox" name="kitchen5" id="japanese" value="japanese">
+        <label for="japanese">Японская</label>
+      </div>
+
+    </fieldset>
+
+    <fieldset>
+      <legend>О себе</legend>
+
+      <div>
+        <label for="about">О себе:</label>
+        <textarea name="about" id="about" cols="30" rows="10"></textarea>
+      </div>
+
+    </fieldset>
+
+    <fieldset>
+      <legend>Кнопки</legend>
+
+      <div>
+        <button type="submit">Зарегестрироваться</button>
+      </div>
+
+      <div>
+        <button type="reset">Очистить форму</button>
+      </div>
+
+    </fieldset>
+
+  </form>
+
+  <footer>
+    <div>&copy; Olifirenko Roman </div>
+  </footer>
+
+</body>
+
+</html>
